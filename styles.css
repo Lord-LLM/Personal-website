@@ -247,6 +247,8 @@ a:focus-visible, button:focus-visible{
 
 .preview{
   height: 140px;
+  position: relative;
+  overflow: hidden;
   background:
     radial-gradient(circle at 20% 20%, rgba(169,140,255,0.10), transparent 55%),
     radial-gradient(circle at 80% 80%, rgba(63,232,155,0.08), transparent 55%),
@@ -256,6 +258,17 @@ a:focus-visible, button:focus-visible{
   justify-content:center;
 }
 .preview__svg{ width: 100%; height: 100%; }
+
+.preview__shot{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+.preview__shot ~ .preview__svg{ display: none; }
 
 .preview__line{ fill:none; stroke-width: 2; }
 .preview__line--a{ stroke: var(--green); opacity: .9; }
