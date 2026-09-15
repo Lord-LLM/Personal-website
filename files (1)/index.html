@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enock Katui — AI/ML Engineer</title>
+<meta name="description" content="Enock Katui — AI/ML Engineer building deepfake detection systems, forecasting pipelines, and applied ML tools. Nairobi, Kenya.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="scanline" aria-hidden="true"></div>
+
+<header class="nav" id="top">
+  <div class="wrap nav__inner">
+    <a class="nav__brand" href="#top">~/enock.katui</a>
+    <nav class="nav__links">
+      <a href="#projects">projects</a>
+      <a href="#experience">experience</a>
+      <a href="#certifications">certifications</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <div class="nav__social">
+      <a href="https://github.com/Lord-LLM" target="_blank" rel="noopener">[github]</a>
+      <a href="https://www.linkedin.com/in/lord-llm/" target="_blank" rel="noopener">[linkedin]</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <p class="mono label">&gt; whoami</p>
+    <h1 class="hero__name">Enock Katui<span class="cursor" aria-hidden="true">_</span></h1>
+    <p class="hero__role">AI/ML Engineer — deepfake detection <span class="dim">@</span> <a href="https://deeptrack.io" target="_blank" rel="noopener" class="link-inline">DeepTrack.io</a></p>
+    <p class="hero__bio">I build applied machine learning systems that ship — from a Swin Transformer deepfake detector running in production, to forecasting dashboards and retrieval-augmented tools grounded in real data. Based in Nairobi, Kenya, currently in my final year at Dedan Kimathi University of Technology.</p>
+    <div class="hero__cta">
+      <a href="#projects" class="btn btn--primary">view projects</a>
+      <a href="mailto:katuienock@gmail.com" class="btn btn--ghost">katuienock@gmail.com</a>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <p class="mono label">// projects</p>
+      <h2 class="section__title">Deployed &amp; shipping</h2>
+
+      <div class="grid grid--projects">
+
+        <!-- Project 1 -->
+        <article class="card">
+          <div class="browser-bar">
+            <div class="browser-dots"><span></span><span></span><span></span></div>
+            <div class="browser-url">retailsalesforecasting-7hhpf64vbawbngb9dpmvpv.streamlit.app</div>
+          </div>
+          <div class="preview preview--forecast" aria-hidden="true">
+            <svg viewBox="0 0 300 140" class="preview__svg">
+              <polyline points="0,110 30,95 60,100 90,70 120,80 150,50 180,60 210,35 240,45 270,20 300,30" class="preview__line preview__line--a"/>
+              <polyline points="0,120 30,118 60,112 90,108 120,100 150,95 180,88 210,80 240,72 270,65 300,55" class="preview__line preview__line--b"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h3>Retail Sales Forecasting</h3>
+            <p>Forecasting US retail sales (FRED RSXFS series) with SARIMA, Prophet, and LSTM side by side, deployed as an interactive Streamlit dashboard.</p>
+            <div class="tags"><span>SARIMA</span><span>Prophet</span><span>LSTM</span><span>Streamlit</span></div>
+            <a class="card__link" href="https://retailsalesforecasting-7hhpf64vbawbngb9dpmvpv.streamlit.app/" target="_blank" rel="noopener">launch app →</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card">
+          <div class="browser-bar">
+            <div class="browser-dots"><span></span><span></span><span></span></div>
+            <div class="browser-url">mentalhealthaiagent-mbmrndrirhxqgptaav54hb.streamlit.app</div>
+          </div>
+          <div class="preview preview--chat" aria-hidden="true">
+            <svg viewBox="0 0 300 140" class="preview__svg">
+              <rect x="20" y="20" width="140" height="28" rx="6" class="preview__bubble preview__bubble--a"/>
+              <rect x="140" y="58" width="140" height="28" rx="6" class="preview__bubble preview__bubble--b"/>
+              <rect x="20" y="96" width="110" height="28" rx="6" class="preview__bubble preview__bubble--a"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h3>Mental Health AI Agent</h3>
+            <p>A conversational AI agent that offers supportive, LLM-backed mental health check-ins and guidance, deployed with Streamlit.</p>
+            <div class="tags"><span>LLM Agent</span><span>Python</span><span>Streamlit</span></div>
+            <a class="card__link" href="https://mentalhealthaiagent-mbmrndrirhxqgptaav54hb.streamlit.app/" target="_blank" rel="noopener">launch app →</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="card">
+          <div class="browser-bar">
+            <div class="browser-dots"><span></span><span></span><span></span></div>
+            <div class="browser-url">flood-terrain-aware.vercel.app</div>
+          </div>
+          <div class="preview preview--terrain" aria-hidden="true">
+            <svg viewBox="0 0 300 140" class="preview__svg">
+              <path d="M0,100 C40,70 60,110 100,80 C140,50 160,95 200,60 C240,30 260,70 300,40" class="preview__contour preview__contour--a"/>
+              <path d="M0,120 C40,100 60,125 100,105 C140,80 160,115 200,90 C240,65 260,100 300,75" class="preview__contour preview__contour--b"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h3>Flood Terrain-Aware</h3>
+            <p>Terrain-aware flood risk mapping — models elevation and drainage patterns to flag flood-susceptible zones.</p>
+            <div class="tags"><span>Geospatial</span><span>ML</span><span>Vercel</span></div>
+            <a class="card__link" href="https://flood-terrain-aware.vercel.app/" target="_blank" rel="noopener">launch app →</a>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="card">
+          <div class="browser-bar">
+            <div class="browser-dots"><span></span><span></span><span></span></div>
+            <div class="browser-url">bilingual-rag-chatbot...w7gpfry5cr7.streamlit.app</div>
+          </div>
+          <div class="preview preview--rag" aria-hidden="true">
+            <svg viewBox="0 0 300 140" class="preview__svg">
+              <circle cx="150" cy="70" r="10" class="preview__node preview__node--core"/>
+              <circle cx="70" cy="30" r="6" class="preview__node"/>
+              <circle cx="230" cy="35" r="6" class="preview__node"/>
+              <circle cx="50" cy="105" r="6" class="preview__node"/>
+              <circle cx="240" cy="110" r="6" class="preview__node"/>
+              <line x1="150" y1="70" x2="70" y2="30" class="preview__edge"/>
+              <line x1="150" y1="70" x2="230" y2="35" class="preview__edge"/>
+              <line x1="150" y1="70" x2="50" y2="105" class="preview__edge"/>
+              <line x1="150" y1="70" x2="240" y2="110" class="preview__edge"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h3>Bilingual RAG Chatbot — Constitution of Kenya</h3>
+            <p>An English/Kiswahili retrieval-augmented chatbot that answers questions grounded directly in the text of the Constitution of Kenya.</p>
+            <div class="tags"><span>RAG</span><span>LangChain</span><span>Bilingual</span></div>
+            <a class="card__link" href="https://bilingual-rag-chatbot-on-the-constitution-of-kenya-w7gpfry5cr7.streamlit.app/" target="_blank" rel="noopener">launch app →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <p class="mono label">// experience &amp; leadership</p>
+      <h2 class="section__title">Where I spend my time</h2>
+
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__marker timeline__marker--current"></div>
+          <div class="timeline__content">
+            <p class="timeline__meta"><span class="timeline__tag">current</span></p>
+            <h3>AI/ML Engineer — DeepTrack.io</h3>
+            <p>Building deepfake detection systems for a Nairobi-based company, including a Swin Transformer classification model, rPPG-based liveness detection for live calls, and cross-modal content provenance tooling.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <h3>GDG AI/ML Lead — Dedan Kimathi University of Technology</h3>
+            <p>Leading AI/ML programming for Google Developer Groups on campus — talks, workshops, and applied ML projects for students.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <h3>President — Data Science and AI Club (DSAIC)</h3>
+            <p>Running the university's Data Science and AI Club, growing membership and driving hands-on ML learning.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <h3>Treasurer — IEEE Circuits and Systems Society, DeKUT Student Chapter</h3>
+            <p>Managing finances and supporting technical events for the IEEE CASS student branch chapter.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="wrap">
+      <p class="mono label">// certifications</p>
+      <h2 class="section__title">Credentials</h2>
+
+      <div class="grid grid--certs">
+
+        <a class="cert" href="https://www.credly.com/badges/97424758-5103-44c8-afd4-69c0ae13b800/linked_in_profile" target="_blank" rel="noopener">
+          <p class="cert__title">Applied Data Science Lab</p>
+          <p class="cert__issuer">WorldQuant University</p>
+        </a>
+
+        <a class="cert" href="https://www.credly.com/badges/3197c412-7dfe-41b3-b840-293e3fcc714b/linked_in_profile" target="_blank" rel="noopener">
+          <p class="cert__title">AWS Educate Machine Learning Foundations — Training Badge</p>
+          <p class="cert__issuer">Amazon Web Services Training and Certification</p>
+        </a>
+
+        <a class="cert" href="https://www.kaggle.com/certification/badges/enockkatui/105" target="_blank" rel="noopener">
+          <p class="cert__title">5-Day AI Agents Intensive Course with Google</p>
+          <p class="cert__issuer">Kaggle / Google</p>
+        </a>
+
+        <a class="cert" href="https://www.coursera.org/account/accomplishments/specialization/FD9NYO2J9P66" target="_blank" rel="noopener">
+          <p class="cert__title">Machine Learning Specialization</p>
+          <p class="cert__issuer">Stanford Online / DeepLearning.AI — Oct 2025</p>
+        </a>
+
+        <a class="cert" href="https://preprod-wallet.certifyme.dev/verify/1eb59add24140" target="_blank" rel="noopener">
+          <p class="cert__title">Data Science and AI Bootcamp</p>
+          <p class="cert__issuer">Lux Tech Academy — May 2025</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap contact">
+      <p class="mono label">&gt; contact</p>
+      <h2 class="section__title">Let's talk</h2>
+      <p class="contact__text">Open to internship and collaboration opportunities in applied ML, computer vision, and NLP.</p>
+      <div class="contact__links">
+        <a href="mailto:katuienock@gmail.com" class="btn btn--primary">email me</a>
+        <a href="https://github.com/Lord-LLM" target="_blank" rel="noopener" class="btn btn--ghost">github</a>
+        <a href="https://www.linkedin.com/in/lord-llm/" target="_blank" rel="noopener" class="btn btn--ghost">linkedin</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p>© <span id="year"></span> Enock Katui</p>
+    <p class="dim">built &amp; deployed with Vercel</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
